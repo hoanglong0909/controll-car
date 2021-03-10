@@ -9,18 +9,16 @@
     <body>
         <script>
             let value = prompt("Type a number", 0);
-            let switch (value) {
-                case value == 1:
+            switch (value > 0 ? 1 : value < 0 ? -1 : 0) {
+                case 1:
                     alert(1);
                     break;
-                    case value == =1:
-                        alert(1);
+                case -1:
+                    alert(-1);
                     break;
-                        case:
-                        alert=0
-                        break;
-
-
+                case 0:
+                    alert(0);
+                    break;
             }
         </script>
     </body>
